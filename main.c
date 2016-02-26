@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int x,y;
+//eto uchebnaya programma//
 int main()
 {
     printf("Vvedite chisla ");
