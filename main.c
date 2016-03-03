@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
-int x,y;
+float x,y;
 //eto uchebnaya programma//
 int main()
 {
     printf("Vvedite chisla ");
-    scanf ("%d,%d",&x, &y);
-    printf ("%d + %d = %d\n", x,y,x+y);
-     printf ("%d - %d = %d\n", x,y,x-y);
-      printf ("%d * %d = %d\n", x,y,x*y);
+    scanf ("%f,%f",&x, &y);
+    printf ("%f + %f = %f\n", x,y,x+y);
+     printf ("%f - %f = %f\n", x,y,x-y);
+      printf ("%f * %f = %f\n", x,y,x*y);
+    printf ("%f / %f = %3.2f\n", x,y,x/y);
     return 0;
 }
